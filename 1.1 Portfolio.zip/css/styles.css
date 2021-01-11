@@ -1,0 +1,145 @@
+html, body{
+	margin: 0px;
+	padding: 0px;
+}
+
+.navigation{
+	background-color:#4f0d0d;
+	color: white;
+	height: 50px;
+}
+
+.navigation ul{
+	margin-top: 0px;
+	list-style: none;
+	padding-left: 0px;
+	text-align: right;
+	height: 50px;
+}
+
+.navigation li{
+	display: inline-block;
+	padding-left: 30px;
+	padding-right: 30px;
+	line-height: 50px;
+	font-size: 16px;
+}
+
+.navigation a{
+	color: white;
+	text-decoration: none;
+}
+
+.navigation a:hover{
+	color: #666262;
+}
+
+body{
+	background-color:#666262;
+	color: black;
+	font-family: 'Spartan', sans-serif;
+}
+
+.capa div{
+	display: inline-block;
+	height: 650px;
+}
+
+.profile-pic{
+	
+	text-align: center;
+}
+
+.profile-pic img{
+	width: 350px;
+	border-radius: 350px;
+	margin-top: 150px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.profile-title {
+	vertical-align: top;
+
+}
+
+.profile-title h1{
+	font-size: 48px;
+	margin-top: 300px;
+}
+
+.profile-title h2{
+	font-size: 16px;
+	margin-left: 10px;
+	margin-top: -20px;
+}
+
+.main{
+	padding-top: 20px;
+	padding-right: 180px;
+	padding-bottom: 80px;
+	padding-left: 100px;
+}
+
+.main h1{
+	font-weight: normal;
+}
+.main h2{
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+.main h3{
+	font-size: 12px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.main p{
+	font-size: 18px;
+	font-weight: 100;
+	text-align: justify;
+}
+
+.cv-pic{
+	float: left;
+	width: 310px;
+	margin-right: 10px;
+}
+
+.caminho{
+	list-style: none;
+	padding-left: 0;
+}
+
+.caminho li{
+	display: inline-block;
+}
+
+.face{
+	width: 50px;
+	margin-right: 10px;
+}
+
+.back-link{
+	color: black;
+}
+
+.chaveiro{
+	width: 200px;
+}
+
+.fotoafa{
+	width: 350px;
+}
+
+.chaveiro1{
+	width: 350px;
+}
+
+
+@keyframes profile-capa{
+	0%{opacity: 0}
+	100%{opacity: 1}
+}
+
+}
